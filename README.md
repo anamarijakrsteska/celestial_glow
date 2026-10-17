@@ -2,6 +2,7 @@
 
 # CelestialGlow
 Your window to the cosmos.
+
 **Celestial Glow** is a stargazing session booking application built with React and Django. 
 Visitors can explore available sessions, book a time slot, and receive a personalized AI-generated booking confirmation. 
 Google Calendar integration helps identify scheduling conflicts.
