@@ -1,7 +1,6 @@
 <img width="550" height="250" alt="CelestialGlow_logo" src="https://github.com/user-attachments/assets/f461d2cb-42aa-4581-8999-6ecc64185fb9" />
 
-# CelestialGlow
-Your window to the cosmos.
+# CelestialGlow - Your window to the cosmos.
 
 **Celestial Glow** is a stargazing session booking application built with React and Django. 
 Visitors can explore available sessions, book a time slot, and receive a personalized AI-generated booking confirmation. 
