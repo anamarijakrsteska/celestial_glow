@@ -77,7 +77,7 @@ Start Django from the same terminal so the application can access the environmen
 
 Google Calendar requires a Google Cloud project, the Calendar API, OAuth credentials, and a configured callback URL.
 
-Keep API keys, OAuth credentials, and generated token files private.
+Keep API keys, OAuth credentials, and generated token files private!
 
 ### AI Tools Used
 - ChatGPT and Claude: Assisted with technical troubleshooting, debugging, and improving the integration between the frontend and backend.
