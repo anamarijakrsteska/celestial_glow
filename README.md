@@ -24,12 +24,14 @@ Google Calendar integration helps identify scheduling conflicts.
 - AI integration: Google Gemini API
 
 ### Project Structure
+```bash
 celestialglow/
 ├── celestialglow/          
 ├── celestialglowapp/       
 ├── frontend/              
 ├── manage.py
 └── README.md
+```
 
 ### Project Status
 Celestial Glow is being developed as a scheduling application project, with React, Django, Google Calendar integration, and AI-generated booking confirmations.
