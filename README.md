@@ -85,6 +85,6 @@ Google Calendar requires a Google Cloud project, the Calendar API, OAuth credent
 
 ### To Improve
 - Add automated tests for booking validation and API endpoints.
-- Expand booking management with cancellation and rescheduling.
 - Implement e-mail notifications for booking confirmations and session reminders.
+- Expand booking management with cancellation and rescheduling.
 
