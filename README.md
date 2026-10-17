@@ -38,7 +38,7 @@ celestialglow/
 ### How to Run Locally
 **Prerequisites:** Python, Node.js, and npm.
 
-1. Start the Django backend
+**1. Start the Django backend**
 
 From the project root:
 ```bash
@@ -57,7 +57,7 @@ python manage.py runserver
  ```
 The backend runs at http://127.0.0.1:8000/
 
-2. Start the React frontend
+**2. Start the React frontend**
 
 Open a second terminal:
  ```bash
@@ -67,7 +67,7 @@ npm run dev
  ```
 Open the URL provided by Vite, usually http://localhost:5173/
 
-3. Configure integrations
+**3. Configure integrations**
 
 For AI-generated confirmations, set your Gemini API key in Windows PowerShell:
 ```bash
