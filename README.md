@@ -40,6 +40,7 @@ celestialglow/
 
 ### 1. Start the Django backend
 Open a terminal in the project root directory (the folder containing manage.py).
+
 **Step I:** Create a virtual environment (recommended) 
 ```bash
 python -m venv venv
