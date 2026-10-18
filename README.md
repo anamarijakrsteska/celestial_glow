@@ -1,7 +1,7 @@
 <img width="535" height="235" alt="CelestialGlow_logo" src="https://github.com/user-attachments/assets/f461d2cb-42aa-4581-8999-6ecc64185fb9" />
 
 # Celestial Glow
-A LITTLE CLOSER TO INFINITY
+**A LITTLE CLOSER TO INFINITY**
 
 **Celestial Glow** is a stargazing session booking application built with React and Django. 
 Visitors can explore available sessions, book a unique time slot, and receive a personalized AI-generated booking confirmation. 
