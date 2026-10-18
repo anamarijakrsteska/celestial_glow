@@ -57,7 +57,7 @@ pip install -r requirements.txt
 ```bash
 python manage.py migrate
 ```
-**Step 	V:** Create an administrator account
+**Step V:** Create an administrator account
 ```bash
 python manage.py createsuperuser
 ```
@@ -84,7 +84,7 @@ Open the URL provided by Vite, usually http://localhost:5173/
 ### 3. Configure integrations for AI-generated confirmations
 **Step I:** Obtain a Gemini API key from Google AI Studio.
 
-**Step I:** Open Windows PowerShell in the project root directory and set the environment variable:
+**Step II:** Open Windows PowerShell in the project root directory and set the environment variable:
 ```bash
 $env:GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
  ```
@@ -106,10 +106,9 @@ Google Calendar requires a Google Cloud project, the Calendar API, OAuth credent
 <img width="550" height="250" alt="website_2" src="https://github.com/user-attachments/assets/719bfdba-10e0-4ccf-af84-2cd090989d7d" />
 <img width="550" height="250" alt="website_3" src="https://github.com/user-attachments/assets/162e1552-a954-4f00-a7d9-918e3d60c7d8" />
 <img width="550" height="250" alt="website_4" src="https://github.com/user-attachments/assets/a780d1d3-ecf5-43f6-b7c1-95e254c06a0b" />
+<img width="550" height="250" alt="website_test_1" src="https://github.com/user-attachments/assets/5cce19a3-54e1-413c-afbb-263006cc9cb7" />
+<img width="550" height="250" alt="website_test_2" src="https://github.com/user-attachments/assets/d67f90f3-1bd9-405f-b038-f772f19165dc" />
 <img width="550" height="250" alt="website_5" src="https://github.com/user-attachments/assets/eea5ba75-bee6-4894-a1a8-1b66b86174a2" />
-
-
-
 
 
 
