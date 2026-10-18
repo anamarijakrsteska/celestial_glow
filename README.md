@@ -101,4 +101,15 @@ Google Calendar requires a Google Cloud project, the Calendar API, OAuth credent
 - Implement email notifications for booking confirmations and session reminders.
 - Expand booking management with cancellation and rescheduling.
 
+## Images of the WebSite
+<img width="550" height="250" alt="website_1" src="https://github.com/user-attachments/assets/09bcced6-7a69-40f8-a80d-b11ee2e2b4eb" /> 
+<img width="550" height="250" alt="website_2" src="https://github.com/user-attachments/assets/719bfdba-10e0-4ccf-af84-2cd090989d7d" />
+<img width="550" height="250" alt="website_3" src="https://github.com/user-attachments/assets/162e1552-a954-4f00-a7d9-918e3d60c7d8" />
+<img width="550" height="250" alt="website_4" src="https://github.com/user-attachments/assets/a780d1d3-ecf5-43f6-b7c1-95e254c06a0b" />
+<img width="550" height="250" alt="website_5" src="https://github.com/user-attachments/assets/eea5ba75-bee6-4894-a1a8-1b66b86174a2" />
+
+
+
+
+
 
