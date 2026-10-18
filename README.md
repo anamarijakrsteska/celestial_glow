@@ -67,9 +67,9 @@ python manage.py runserver
  ```
 **Step VII:** The backend will be available at the endpoints and pages:
 ```bash
-- **Django Admin:** http://127.0.0.1:8000/admin/    # Log In to Django Admin using the superuser credentials created in Step V.
-- **Bookings:** http://127.0.0.1:8000/bookings/     # Handles booking requests.
-- **Slots:** http://127.0.0.1:8000/slots/           # Retrieves available stargazing sessions.
+- Django Admin: http://127.0.0.1:8000/admin/    # Log In to Django Admin using the superuser credentials created in Step V.
+- Bookings: http://127.0.0.1:8000/bookings/     # Handles booking requests.
+- Slots: http://127.0.0.1:8000/slots/           # Retrieves available stargazing sessions.
 ```
 
 ### 2. Start the React frontend
