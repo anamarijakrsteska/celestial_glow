@@ -106,8 +106,8 @@ Google Calendar requires a Google Cloud project, the Calendar API, OAuth credent
 <img width="550" height="250" alt="website_2" src="https://github.com/user-attachments/assets/719bfdba-10e0-4ccf-af84-2cd090989d7d" />
 <img width="550" height="250" alt="website_3" src="https://github.com/user-attachments/assets/162e1552-a954-4f00-a7d9-918e3d60c7d8" />
 <img width="550" height="250" alt="website_4" src="https://github.com/user-attachments/assets/a780d1d3-ecf5-43f6-b7c1-95e254c06a0b" />
-<img width="550" height="250" alt="website_test_1" src="https://github.com/user-attachments/assets/305a990b-110f-4321-b3d0-2e29740043cf" />
-<img width="550" height="250" alt="website_test_2" src="https://github.com/user-attachments/assets/0975cb13-6f8e-44d4-9f3d-eaec6b203a25" />
+<img width="550" height="250" alt="website_test_1" src="https://github.com/user-attachments/assets/6f53017f-19e2-4994-8a34-4b1f2359b425" />
+<img width="550" height="250" alt="website_test_2" src="https://github.com/user-attachments/assets/0990440b-921b-41fd-b93f-8c415920bbd3" />
 <img width="550" height="250" alt="website_5" src="https://github.com/user-attachments/assets/eea5ba75-bee6-4894-a1a8-1b66b86174a2" />
 
 
