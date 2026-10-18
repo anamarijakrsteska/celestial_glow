@@ -54,7 +54,6 @@ pip install -r requirements.txt
 ```
 **Step IV:** Prepare the database
 ```bash
-python manage.py makemigrations           
 python manage.py migrate
 ```
 **Step 	V:** Create an administrator account
@@ -65,12 +64,12 @@ python manage.py createsuperuser
 ```bash
 python manage.py runserver
  ```
-**Step VII:** The backend will be available at the endpoints and pages:
-```bash
-- Django Admin: http://127.0.0.1:8000/admin/    # Log In to Django Admin using the superuser credentials created in Step V.
-- Bookings: http://127.0.0.1:8000/bookings/     # Handles booking requests.
-- Slots: http://127.0.0.1:8000/slots/           # Retrieves available stargazing sessions.
-```
+**Step VII:** Access the backend
+- Django Admin: http://127.0.0.1:8000/admin/ — Manage sessions and bookings.
+- Bookings: http://127.0.0.1:8000/api/bookings/ — Handles booking requests.
+- Slots: http://127.0.0.1:8000/api/slots/ — Retrieves available stargazing sessions.
+
+Log in to Django Admin using the superuser credentials created in Step V.
 
 ### 2. Start the React frontend
 Open a second terminal:
@@ -81,16 +80,13 @@ npm run dev     # Start the development server
  ```
 Open the URL provided by Vite, usually http://localhost:5173/
 
-### 3. Configure integrations for AI-generated confirmations,
+### 3. Configure integrations for AI-generated confirmations
 **Step 1:** Obtain a Gemini API key from Google AI Studio.
+
 **Step 2:** Open Windows PowerShell in the project root directory and set the environment variable:
 ```bash
 $env:GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
  ```
-**Step 3:** Start the Django backend from the same PowerShell terminal
-```bash
-python manage.py runserver
-```
 Google Calendar requires a Google Cloud project, the Calendar API, OAuth credentials, and a configured callback URL.
 **Keep API keys, OAuth credentials, and generated token files private!**
 
@@ -100,7 +96,7 @@ Google Calendar requires a Google Cloud project, the Calendar API, OAuth credent
 
 ## To Improve
 - Add automated tests for booking validation and API endpoints.
-- Implement e-mail notifications for booking confirmations and session reminders.
+- Implement email notifications for booking confirmations and session reminders.
 - Expand booking management with cancellation and rescheduling.
 
 
