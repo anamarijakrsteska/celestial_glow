@@ -7,7 +7,7 @@ Your window to the cosmos.
 Visitors can explore available sessions, book a time slot, and receive a personalized AI-generated booking confirmation. 
 Google Calendar integration helps identify scheduling conflicts.
 
-### Features
+## Features
 - **Session availability:** View upcoming stargazing sessions and their durations.
 - **Online booking:** Reserve a session using a name and email address.
 - **Double-booking prevention:** Prevent multiple bookings for the same time slot.
@@ -16,14 +16,14 @@ Google Calendar integration helps identify scheduling conflicts.
 - **Timezone support:** Display session times in the Europe/Skopje timezone.
 - **Admin dashboard:** Manage sessions and bookings through Django Admin.
 
-### Tech Stack
+## Tech Stack
 - **Frontend:** React, JavaScript, Vite
 - **Backend:** Python, Django, Django REST Framework
 - **Database:** SQLite for local development
 - **Calendar integration:** Google Calendar API and OAuth 2.0
 - **AI integration:** Google Gemini API
 
-### Project Structure
+## Project Structure
 ```bash
 celestialglow/
 ├── celestialglow/          
@@ -35,10 +35,10 @@ celestialglow/
 └── README.md
 ```
 
-### How to Run Locally
+## How to Run Locally
 **Prerequisites:** Python, Node.js, and npm.
 
-##### 1. Start the Django backend
+### 1. Start the Django backend
 Open a terminal in the project root directory (the folder containing manage.py).
 **Step I:** Create a virtual environment (recommended) 
 ```bash
@@ -70,7 +70,7 @@ python manage.py runserver
 - **Bookings:** http://127.0.0.1:8000/bookings/     # Handles booking requests.
 - **Slots:** http://127.0.0.1:8000/slots/           # Retrieves available stargazing sessions.
 
-##### 2. Start the React frontend
+### 2. Start the React frontend
 Open a second terminal:
  ```bash
 cd frontend     # Navigate to the frontend directory
@@ -79,7 +79,7 @@ npm run dev     # Start the development server
  ```
 Open the URL provided by Vite, usually http://localhost:5173/
 
-##### 3. Configure integrations for AI-generated confirmations,
+### 3. Configure integrations for AI-generated confirmations,
 **Step 1:** Obtain a Gemini API key from Google AI Studio.
 **Step 2:** Open Windows PowerShell in the project root directory and set the environment variable:
 ```bash
@@ -92,12 +92,13 @@ python manage.py runserver
 Google Calendar requires a Google Cloud project, the Calendar API, OAuth credentials, and a configured callback URL.
 **Keep API keys, OAuth credentials, and generated token files private!**
 
-### AI Tools Used
+## AI Tools Used
 - **Google Gemini API:** Powers the personalized booking confirmation messages.
 - **ChatGPT and Claude:** Assisted with technical troubleshooting, debugging, and improving the integration between the frontend and backend.
 
-### To Improve
+## To Improve
 - Add automated tests for booking validation and API endpoints.
 - Implement e-mail notifications for booking confirmations and session reminders.
 - Expand booking management with cancellation and rescheduling.
+
 
