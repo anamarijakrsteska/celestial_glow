@@ -38,45 +38,58 @@ celestialglow/
 ### How to Run Locally
 **Prerequisites:** Python, Node.js, and npm.
 
-**1. Start the Django backend**
-
-From the project root:
+##### 1. Start the Django backend
+Open a terminal in the project root directory (the folder containing manage.py).
+**Step I:** Create a virtual environment (recommended) 
 ```bash
 python -m venv venv
 ```
-On Windows PowerShell, activate the environment:
+**Step II:** Activate the virtual environment
 ```bash
 .\venv\Scripts\Activate.ps1
 ```
-Install dependencies and initialize the database:
- ```bash
+**Step III:** Install the required dependencies
+```bash
 pip install -r requirements.txt
+```
+**Step IV:** Prepare the database
+```bash
+python manage.py makemigrations           
 python manage.py migrate
+```
+**Step 	V:** Create an administrator account
+```bash
 python manage.py createsuperuser
+```
+**Step VI:** Start the development server
+```bash
 python manage.py runserver
  ```
-The backend runs at http://127.0.0.1:8000/
+**Step VII:** The backend will be available at the endpoints and pages:
+- **Django Admin:** http://127.0.0.1:8000/admin/    # Log In to Django Admin using the superuser credentials created in Step V.
+- **Bookings:** http://127.0.0.1:8000/bookings/     # Handles booking requests.
+- **Slots:** http://127.0.0.1:8000/slots/           # Retrieves available stargazing sessions.
 
-**2. Start the React frontend**
-
+##### 2. Start the React frontend
 Open a second terminal:
  ```bash
-cd frontend
-npm install
-npm run dev
+cd frontend     # Navigate to the frontend directory
+npm install     # Install the frontend dependencies
+npm run dev     # Start the development server
  ```
 Open the URL provided by Vite, usually http://localhost:5173/
 
-**3. Configure integrations**
-
-For AI-generated confirmations, set your Gemini API key in Windows PowerShell:
+##### 3. Configure integrations for AI-generated confirmations,
+**Step 1:** Obtain a Gemini API key from Google AI Studio.
+**Step 2:** Open Windows PowerShell in the project root directory and set the environment variable:
 ```bash
 $env:GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
  ```
-Start Django from the same terminal so the application can access the environment variable.
-
+**Step 3:** Start the Django backend from the same PowerShell terminal
+```bash
+python manage.py runserver
+```
 Google Calendar requires a Google Cloud project, the Calendar API, OAuth credentials, and a configured callback URL.
-
 **Keep API keys, OAuth credentials, and generated token files private!**
 
 ### AI Tools Used
