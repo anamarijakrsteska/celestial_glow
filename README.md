@@ -81,13 +81,14 @@ npm run dev     # Start the development server
 Open the URL provided by Vite, usually http://localhost:5173/
 
 ### 3. Configure integrations for AI-generated confirmations
-**Step 1:** Obtain a Gemini API key from Google AI Studio.
+**Step I:** Obtain a Gemini API key from Google AI Studio.
 
-**Step 2:** Open Windows PowerShell in the project root directory and set the environment variable:
+**Step I:** Open Windows PowerShell in the project root directory and set the environment variable:
 ```bash
 $env:GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
  ```
 Google Calendar requires a Google Cloud project, the Calendar API, OAuth credentials, and a configured callback URL.
+
 **Keep API keys, OAuth credentials, and generated token files private!**
 
 ## AI Tools Used
