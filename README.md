@@ -52,9 +52,8 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-### Generate Django Secret Key
+### *Generate Django Secret Key
 Run the following command in your terminal:
-
 ```bash
 python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
 ```
@@ -62,11 +61,11 @@ Copy the generated key into your `.env` file:
 ```env
 DJANGO_SECRET_KEY=your_generated_key_here
 ```
-### Configure integrations for AI-generated confirmations
+### *Configure integrations for AI-generated confirmations
 
-**Step I:** Obtain a Gemini API key from Google AI Studio.
+**1.** Obtain a Gemini API key from Google AI Studio.
 
-**Step II:** Open Windows PowerShell in the project root directory and set the environment variable:
+**2.** Open Windows PowerShell in the project root directory and set the environment variable:
 ```bash
 $env:GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
  ```
