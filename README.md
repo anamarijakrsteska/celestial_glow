@@ -35,10 +35,8 @@ celestialglow/
 └── README.md
 ```
 
-## How to Run Locally
+## How To Run Locally
 **Prerequisites:** Python, Node.js, and npm.
-
-### 1. Start the Django backend
 Open a terminal in the project root directory (the folder containing manage.py).
 
 **Step I:** Create a virtual environment (recommended) 
@@ -53,6 +51,30 @@ python -m venv venv
 ```bash
 pip install -r requirements.txt
 ```
+
+### Generate Django Secret Key
+Run the following command in your terminal:
+
+```bash
+python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
+```
+Copy the generated key into your `.env` file:
+```env
+DJANGO_SECRET_KEY=your_generated_key_here
+```
+### Configure integrations for AI-generated confirmations
+
+**Step I:** Obtain a Gemini API key from Google AI Studio.
+
+**Step II:** Open Windows PowerShell in the project root directory and set the environment variable:
+```bash
+$env:GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
+ ```
+Google Calendar requires a Google Cloud project, the Calendar API, OAuth credentials, and a configured callback URL.
+
+**Keep API keys, OAuth credentials, and generated token files private!**
+
+
 **Step IV:** Prepare the database
 ```bash
 python manage.py migrate
@@ -72,7 +94,7 @@ python manage.py runserver
 
 Log in to Django Admin using the superuser credentials created in Step V.
 
-### 2. Start the React frontend
+### Start the React frontend
 Open a second terminal:
  ```bash
 cd frontend     # Navigate to the frontend directory
@@ -80,17 +102,6 @@ npm install     # Install the frontend dependencies
 npm run dev     # Start the development server
  ```
 Open the URL provided by Vite, usually http://localhost:5173/
-
-### 3. Configure integrations for AI-generated confirmations
-**Step I:** Obtain a Gemini API key from Google AI Studio.
-
-**Step II:** Open Windows PowerShell in the project root directory and set the environment variable:
-```bash
-$env:GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
- ```
-Google Calendar requires a Google Cloud project, the Calendar API, OAuth credentials, and a configured callback URL.
-
-**Keep API keys, OAuth credentials, and generated token files private!**
 
 ## AI Tools Used
 - **Google Gemini API:** Powers the personalized booking confirmation messages.
@@ -109,6 +120,5 @@ Google Calendar requires a Google Cloud project, the Calendar API, OAuth credent
 <img width="550" height="250" alt="website_test_1" src="https://github.com/user-attachments/assets/35761605-8ca1-4975-a7e9-8e28232e9c94" />
 <img width="550" height="250" alt="website_test_2" src="https://github.com/user-attachments/assets/f4f473a4-4496-42c2-8045-9a9e1819fcbd" />
 <img width="550" height="250" alt="website_5" src="https://github.com/user-attachments/assets/eea5ba75-bee6-4894-a1a8-1b66b86174a2" />
-
 
 
