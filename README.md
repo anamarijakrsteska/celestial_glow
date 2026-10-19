@@ -71,6 +71,18 @@ $env:GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
  ```
 Google Calendar requires a Google Cloud project, the Calendar API, OAuth credentials, and a configured callback URL.
 
+Copy them into your `.env` file:
+```env
+DJANGO_SECRET_KEY=your_generated_key_here
+
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+
+GOOGLE_REDIRECT_URI=http://127.0.0.1:8000/api/google-calendar/callback/
+
+GEMINI_API_KEY=your_gemini_api_key
+```
+
 **Keep API keys, OAuth credentials, and generated token files private!**
 
 
